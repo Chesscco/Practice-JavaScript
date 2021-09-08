@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background: #40FFF9;
+    
+}
+
+.header {
+    height: 100px;
+    
+
+}
+
+.header_img {
+    width: 90px;
+    margin-top: 70px;
+    margin-left: 350px;
+}
+
+.header_h1 {
+    margin-left: 35%;
+    margin-top: -65px;
+    color: #1F84C6;
+
+}
+
+ /* CUADRADO */ 
+.main_cuadrado{
+    width: 560px;
+    height: 295px;
+    margin-top: 130px;
+    margin-left: 215px;
+    border-radius: 55px 55px 55px 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #D2FFFE;
+   
+}
+
+
+.main_cuadrado_img{
+    margin-left: 1445px;
+    margin-top: -178px;
+    width: 220px;
+
+
+}
+
+
+
+/* TRIANGULO */
+
+
+.main_triangulo {
+    width: 560px;
+    height: 350px;
+    margin-left: 1150px;
+    border-radius: 55px 55px 55px 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #D2FFFE;  
+}
+
+.main_triangulo_img{
+    margin-top: 160px;
+    margin-left: 290px;
+    width: 250px;
+}
+
+
+
+/* CIRCULO */
+
+.main_circulo {
+    width: 560px;
+    height: 295px;
+    margin-left: 300px;
+    border-radius: 55px 55px 55px 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #D2FFFE;
+}
+.main_circulo_img {
+    width: 215px;
+    margin-top: 145px;
+    margin-left: -420px;
+}
+
+
+/* TRIANGULO ISOCELES */
+
+.main_isotrinangulo {
+    width: 560px;
+    height: 260px;
+    margin-left: 1000px;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    border-radius: 55px 55px 55px 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #D2FFFE;
+    
+}
+.main_trianIsoseles_img {
+    margin-left: -1500px;
+    margin-top: -175px;
+    width: 270px;
+}
+
+
+.main_h2TDS {
+    color: #1F84C6;
+}
+
+.main_h5TDS {
+    color: #1F84C6;
+}
