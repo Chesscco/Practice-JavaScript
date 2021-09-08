@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets-figuras/figuras.css">
+    <title>Practice-JavaScrip</title>
+</head>
+<body>
+    <header class="header">
+        <img class="header_img" src="/Assets-figuras/img/conjunto.jpg" alt="FIGURAS GEOMETRICAS">
+    <h1 class="header_h1">Bienvenidos Al Calculador De Figuras</h1>
+    </header>
+
+    <div class="main_cuadrado">
+        <h2 class="main_h2TDS">Perímetro y área de un Cuadrado</h2>
+        <form>
+            <label for="InputCudrado">
+                Escriba el lado del Cuadrado : 
+
+            </label>
+            <input id = "InputCuadrado" type="number"> <br>
+            <h5 class="main_h5TDS"> Qué desea realizar : </h5>
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Cálcular el perímetro 
+            </button>
+            <p id="ResultCP"></p>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Cálcular el área
+            </button>
+            <p id="ResultCA"></p>
+        </form>
+        <img class="main_cuadrado_img" src="/Assets-figuras/img/cuadrado1.jpg" alt="">
+        <img class="main_triangulo_img" src="/Assets-figuras/img/triangulo.png" alt="" >
+    </div>
+
+    <div class="main_triangulo">
+        <h2 class="main_h2TDS">Perímetroy área de un Triángulo</h2>
+        
+        <form>
+            <label for="InputTriangulo">
+                Escriba el 1er lado del Triángulo :
+            </label>
+            <input id ="InputTriangulo1" type="number"> <br>
+
+            <label for="InputTriangulo">
+                Escriba el 2do lado del Triángulo :
+            </label>
+            <input id ="InputTriangulo2" type="number"> <br>
+
+            <label for="InputTriangulo">
+                Escriba la altura(H) del Triángulo : 
+            </label>
+            <input id ="InputTriangulo3" type="number"> <br>
+
+            <label for="InputTriangulo">
+                Escriba la base(B) del Triángulo :
+            </label>
+            <input id ="InputTriangulo4" type="number"> <br>
+
+            <h5 class="main_h5TDS"> Qué desea realizar : </h5>
+            <button type="button" onclick="calcularPerimetroTriangulo()">
+                Cálcular el perímetro 
+            </button>
+            <p id="ResultTP"></p>
+            <button type="button" onclick="calcularAreaTriangulo()">
+                Cálcular el área
+            </button>
+            <p id="ResultTA"></p>
+        </form>
+        <img class="main_circulo_img" src="/Assets-figuras/img/circulo.jpg" alt="">
+
+    </div>
+
+    <div class="main_circulo">
+        <h2 class="main_h2TDS">Perímetro y área de un Círculo</h2>
+        <form>
+            <label for="InputCirculo">
+                Escriba el radio del Círculo : 
+
+            </label>
+            <input id = "InputCirculo" type="number"> <br>
+            <h5 class="main_h5TDS"> Qué desea realizar : </h5>
+            <button type="button" onclick="calcularPerimetroCirculo()">
+                Cálcular el perímetro 
+            </button>
+            <p id="ResultCirP"></p>
+            <button type="button" onclick="calcularAreaCirculo()">
+                Cálcular el área
+            </button>
+            <p id="ResultCirA"></p>
+        </form>
+    </div>
+    
+    <div class="main_isotrinangulo">
+        <h2 class="main_h2TDS">Altura de un Triángulo Isoceles</h2>
+        <form>
+            <label for="InputIsotriangulo">
+                Escriba el 1er lado del Triangulo : 
+            </label>
+            <input id = "InputIsotriangulo" type="number"> <br>
+
+            <label for="InputIsotriangulo">
+                Escriba el 2do lado del Triangulo :
+            </label>
+            <input id = "InputIsotriangulo1" type="number"> <br>
+
+            <label for="InputIsotriangulo">
+                Escriba la base del Triangulo :
+            </label>
+            <input id = "InputIsotriangulo2" type="number"> <br>
+            <h5 class="main_h5TDS"> Qué desea realizar : </h5>
+            <button type="button" onclick="calcularAlturaTriangulo()">
+                Cálcular la altura
+            </button>
+            <p id="ResultTAA"></p>
+            
+        </form>
+        <img class="main_trianIsoseles_img" src="https://cienciamatematica.com/wp-content/uploads/triangulo.isosceles.png" alt="">
+    </div>
+    <script src="./Assets-figuras/figuras.js"></script>
+
+    
+</body>
+</html>
